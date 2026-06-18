@@ -9,16 +9,17 @@ import os
 
 os.makedirs("charts", exist_ok=True)
 
-# ---- Dizayn tizimi (rang palitrasi) ----
-NAVY   = "#0A2540"
-BLUE   = "#2563EB"
-TEAL   = "#0EA5A4"
-GREEN  = "#16A34A"
-AMBER  = "#F59E0B"
-RED    = "#DC2626"
-PURPLE = "#7C3AED"
-SLATE  = "#475569"
-GRID   = "#D8DEE9"
+# ---- Dizayn tizimi: energetik palitra (navy + mis/copper) ----
+NAVY   = "#0B2545"   # quyuq ko'k (asosiy)
+BLUE   = "#1F4E79"   # po'lat ko'k
+TEAL   = "#2A9D8F"   # turkuaz urg'u
+GREEN  = "#2E7D32"   # to'q yashil
+AMBER  = "#E0A100"   # oltin/amber
+RED    = "#B3261E"   # signal qizil
+PURPLE = "#6D597A"   # vazmin siyohrang
+COPPER = "#C0792B"   # mis (energetik urg'u)
+SLATE  = "#41506B"   # kulrang-ko'k matn
+GRID   = "#D7DEEA"
 
 plt.rcParams.update({
     "font.family": "DejaVu Sans",
